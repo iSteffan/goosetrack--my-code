@@ -4,6 +4,10 @@ import { ReactComponent as IconPlus } from '../../../../../../icons/ChooseDay-ic
 export const Icon = styled(IconPlus)`
   width: 24px;
   height: 24px;
+
+  stroke: #111111;
+
+  transition: all 250ms;
 `;
 
 export const Button = styled.button`
@@ -24,11 +28,23 @@ export const Button = styled.button`
   border-radius: 8px;
   cursor: pointer;
 
+  transition: all 250ms;
+
   @media screen and (max-width: 767px) {
     height: 48px;
   }
 
   @media screen and (min-width: 768px) {
     height: 52px;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #3e85f3;
+    color: #ffffff;
+  }
+
+  &:hover ${Icon}, &:focus ${Icon} {
+    stroke: #ffffff;
   }
 `;
