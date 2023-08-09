@@ -28,7 +28,6 @@ export const Button = styled.button`
   border-radius: 8px;
   cursor: pointer;
 
-  // transition: all 250ms;
   transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 
   @media screen and (max-width: 767px) {
