@@ -7,7 +7,7 @@ export const Icon = styled(IconPlus)`
 
   stroke: #111111;
 
-  transition: all 250ms;
+  transition: stroke 250ms ease-in-out;
 `;
 
 export const Button = styled.button`
@@ -28,7 +28,8 @@ export const Button = styled.button`
   border-radius: 8px;
   cursor: pointer;
 
-  transition: all 250ms;
+  // transition: all 250ms;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 
   @media screen and (max-width: 767px) {
     height: 48px;
