@@ -1,5 +1,5 @@
 import { AddTaskBtn } from './ChoosedDay/TasksColumnsList/TasksColumn/components/AddTaskBtn/AddTaskBtn';
-import { TaskToolbar } from './ChoosedDay/TasksColumnsList/TasksColumn/components/TaskToolbar/TaskToolbar';
+import { TaskColumnCard } from './ChoosedDay/TasksColumnsList/TasksColumn/components/TaskColumnCard/TaskColumnCard';
 import { DayCalendarHead } from './ChoosedDay/DayCalendarHead/DayCalendarHead';
 import { ColumnHeadBar } from './ChoosedDay/TasksColumnsList/TasksColumn/components/ColumnHeadBar/ColumnHeadBar';
 
@@ -9,7 +9,7 @@ export const App = () => {
       <DayCalendarHead />
       <ColumnHeadBar />
 
-      <TaskToolbar />
+      <TaskColumnCard />
       <AddTaskBtn />
     </div>
   );

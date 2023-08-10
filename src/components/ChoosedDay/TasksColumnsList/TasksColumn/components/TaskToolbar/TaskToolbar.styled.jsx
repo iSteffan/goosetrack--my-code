@@ -47,6 +47,7 @@ export const TrashIcon = styled(IconTrash)`
 export const List = styled.ul`
   display: flex;
   justify-content: space-between;
+  padding: 0;
 
   width: 62px;
   list-style: none;
@@ -60,6 +61,7 @@ export const Btn = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 
   background-color: inherit;
   border: none;
