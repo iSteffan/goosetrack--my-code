@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/goosetrack--my-code/static/css/main.f875434a.css",
-    "main.js": "/goosetrack--my-code/static/js/main.c4ed1e7d.js",
+    "main.js": "/goosetrack--my-code/static/js/main.8b4d7c0a.js",
     "static/media/Inter-Bold.ttf": "/goosetrack--my-code/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-SemiBold.ttf": "/goosetrack--my-code/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
     "static/media/Inter-Medium.ttf": "/goosetrack--my-code/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
@@ -12,10 +12,10 @@
     "static/media/plus-circle.svg": "/goosetrack--my-code/static/media/plus-circle.fbbfd80691652a8b080adf008e06f21a.svg",
     "static/media/plus.svg": "/goosetrack--my-code/static/media/plus.bd05b2233826a166ccf1ea4bb57a31dc.svg",
     "main.f875434a.css.map": "/goosetrack--my-code/static/css/main.f875434a.css.map",
-    "main.c4ed1e7d.js.map": "/goosetrack--my-code/static/js/main.c4ed1e7d.js.map"
+    "main.8b4d7c0a.js.map": "/goosetrack--my-code/static/js/main.8b4d7c0a.js.map"
   },
   "entrypoints": [
     "static/css/main.f875434a.css",
-    "static/js/main.c4ed1e7d.js"
+    "static/js/main.8b4d7c0a.js"
   ]
 }
